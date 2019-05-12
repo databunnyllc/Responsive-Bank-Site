@@ -1,0 +1,347 @@
+/** VARIABLES **/
+body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box; }
+
+/** The Header Section ******************/
+header {
+  padding: 0;
+  margin: 0;
+  width: auto; }
+  header #tablet-search-nav-area {
+    display: none; }
+  header #topNavWrapper {
+    margin: auto;
+    padding: 0 36px;
+    /**** TABLET SEARCH NAV ****/
+    /******************************/
+    /****** LAPTOP VERSION ****************************/
+    /************* END OF LAPTOP VERSION *******************/
+    /************* TABLET VERSION **************************/
+    /************** END OF TABLET VERSION *****************/
+    /************* MOBILE VERSION ****************************/
+    /****************** END OF MOBILE VERSION *********************/ }
+    header #topNavWrapper #siteLogo {
+      display: inline-block; }
+      header #topNavWrapper #siteLogo img {
+        width: 110px;
+        height: 54px; }
+    header #topNavWrapper #hamburger-logo-area {
+      display: none;
+      padding: 5px 50%; }
+      header #topNavWrapper #hamburger-logo-area i {
+        color: #0072bc;
+        font-size: 30px; }
+        header #topNavWrapper #hamburger-logo-area i:hover {
+          cursor: pointer; }
+    header #topNavWrapper #productNav {
+      display: inline-block;
+      width: 45%;
+      margin: 0 0 0 20px; }
+      header #topNavWrapper #productNav ul li i {
+        display: none; }
+    header #topNavWrapper #tablet-search-nav {
+      display: none; }
+    header #topNavWrapper #searchNav {
+      display: inline-block;
+      margin-left: 100px;
+      position: relative;
+      top: -20px; }
+    header #topNavWrapper ul {
+      margin: 0;
+      padding: 0; }
+    header #topNavWrapper li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 0 20px 0 0; }
+      header #topNavWrapper li a {
+        text-decoration: none;
+        color: black;
+        padding-bottom: 21px;
+        transition: all .3s ease; }
+        header #topNavWrapper li a:hover {
+          border-bottom: 2px solid #0072bc; }
+    @media only screen and (min-width: 1024px) and (max-width: 1330px) {
+      header #topNavWrapper #productNav {
+        font-size: 15px;
+        width: auto; }
+        header #topNavWrapper #productNav ul li i {
+          display: none; }
+      header #topNavWrapper #searchNav {
+        font-size: 15px; }
+        header #topNavWrapper #searchNav li:nth-child(2), header #topNavWrapper #searchNav li:nth-child(3), header #topNavWrapper #searchNav li:nth-child(4) {
+          display: none; } }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+      header #topNavWrapper #productNav {
+        width: 80%; }
+        header #topNavWrapper #productNav ul li i {
+          display: none; }
+      header #topNavWrapper #searchNav {
+        display: none; } }
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
+      header #topNavWrapper #siteLogo {
+        width: auto;
+        margin: 0 44%; }
+      header #topNavWrapper #hamburger-logo-area {
+        display: block; }
+      header #topNavWrapper #productNav {
+        display: none; }
+        header #topNavWrapper #productNav ul li i {
+          display: block; }
+      header #topNavWrapper #searchNav {
+        display: none; } }
+    @media only screen and (max-width: 425px) {
+      header #topNavWrapper #siteLogo {
+        width: auto;
+        margin: auto; } }
+
+/******************** END OF TOP NAVIGATION AREA  **********************************/
+#loginArea {
+  margin: 0;
+  padding: 0;
+  background-color: #F4F4F4;
+  width: auto;
+  /*** TABLET VERSION ***********************************************/
+  /*************** MOBILE VERSION *******************************************/ }
+  #loginArea #signInWrapper {
+    width: 750px;
+    margin: auto;
+    padding: 36px 0; }
+    #loginArea #signInWrapper #signInIconArea {
+      display: inline-block; }
+      #loginArea #signInWrapper #signInIconArea i {
+        font-size: 34px; }
+      #loginArea #signInWrapper #signInIconArea h2 {
+        display: inline-block;
+        margin: 2px;
+        font-family: sans-serif; }
+      #loginArea #signInWrapper #signInIconArea a {
+        color: #0072bc;
+        text-decoration: none;
+        font-size: 15px; }
+        #loginArea #signInWrapper #signInIconArea a:hover {
+          color: grey; }
+  #loginArea #signUpArea {
+    display: inline-block; }
+    #loginArea #signUpArea form ul {
+      margin: 0; }
+      #loginArea #signUpArea form ul li {
+        list-style-type: none;
+        display: inline-block; }
+        #loginArea #signUpArea form ul li label {
+          font-family: sans-serif;
+          font-size: 12px; }
+        #loginArea #signUpArea form ul li input {
+          padding: 10px;
+          margin-right: 5px; }
+        #loginArea #signUpArea form ul li input[type="submit"] {
+          border-radius: 5px;
+          border: none;
+          background: #0072bc;
+          color: white;
+          font-family: sans-serif;
+          font-weight: bold;
+          transition: .3s ease; }
+          #loginArea #signUpArea form ul li input[type="submit"]:hover {
+            cursor: pointer;
+            background: #014f83; }
+        #loginArea #signUpArea form ul li a {
+          color: #0072bc;
+          text-decoration: none; }
+          #loginArea #signUpArea form ul li a:hover {
+            color: grey; }
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+    #loginArea #signInWrapper {
+      margin: auto;
+      width: auto; }
+      #loginArea #signInWrapper #signInIconArea {
+        display: none; }
+      #loginArea #signInWrapper ul {
+        padding: 0 35%; } }
+  @media only screen and (max-width: 425px) {
+    #loginArea #signInWrapper ul {
+      padding: 0; } }
+
+/********************************************************************/
+#contentArea {
+  width: auto;
+  margin: 0 auto;
+  padding: 0; }
+  #contentArea #bannerArea {
+    background-image: url("./images/bannerImage.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 85%;
+    background-size: cover;
+    padding: 5%;
+    /************** MOBILE VERSION *********************/ }
+    #contentArea #bannerArea #creditCardBox {
+      background-color: #ffffff91;
+      width: 30%;
+      text-align: center;
+      padding: 20px;
+      border-radius: 8px;
+      /************** TABLET VERSION *********************/ }
+      #contentArea #bannerArea #creditCardBox img {
+        width: 200px; }
+      #contentArea #bannerArea #creditCardBox h1 {
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 40px;
+        font-weight: 100;
+        line-height: 52px;
+        margin: 0; }
+      #contentArea #bannerArea #creditCardBox p {
+        margin: 0;
+        line-height: 20px; }
+      #contentArea #bannerArea #creditCardBox form button {
+        margin-top: 20px;
+        padding: 10px;
+        background: #0072bc;
+        color: white;
+        font-family: sans-serif;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        transition: .3s ease; }
+        #contentArea #bannerArea #creditCardBox form button:hover {
+          cursor: pointer;
+          background: #014f83; }
+      @media only screen and (max-width: 1345px) {
+        #contentArea #bannerArea #creditCardBox img {
+          width: 150px; }
+        #contentArea #bannerArea #creditCardBox h1 {
+          font-size: 30px;
+          line-height: 40px; } }
+    #contentArea #bannerArea #credit-card-box-mobile {
+      display: none; }
+    @media only screen and (max-width: 425px) {
+      #contentArea #bannerArea #creditCardBox {
+        display: none; }
+      #contentArea #bannerArea #credit-card-box-mobile {
+        width: auto;
+        text-align: center;
+        display: block; }
+        #contentArea #bannerArea #credit-card-box-mobile img {
+          width: 250px;
+          position: relative;
+          top: 100px; } }
+
+/**********************************************************************/
+#dealsArea {
+  width: auto;
+  font-family: sans-serif;
+  /********** MOBILE TABLE VERSION ***************************/ }
+  #dealsArea table {
+    margin: auto; }
+    #dealsArea table tr td {
+      width: 300px;
+      text-align: center; }
+      #dealsArea table tr td img {
+        width: 120px; }
+      #dealsArea table tr td h4 {
+        margin-bottom: 0; }
+      #dealsArea table tr td p {
+        margin-top: 5px;
+        line-height: 1.5; }
+        #dealsArea table tr td p a {
+          color: #0072bc;
+          text-decoration: none; }
+  #dealsArea table:nth-child(2) {
+    display: none; }
+  @media only screen and (max-width: 767px) {
+    #dealsArea table:nth-child(1) {
+      display: none; } }
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+    #dealsArea table:nth-child(2) {
+      display: block;
+      margin-top: 25%; } }
+
+/*******************************************************************/
+#learnArea {
+  width: auto;
+  margin: 2% 15%;
+  background-image: url("images/learnBannerImage.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 23%;
+  background-size: cover;
+  padding: 5%; }
+  #learnArea h1 {
+    color: white;
+    width: 500px;
+    font-size: 50px;
+    font-family: sans-serif; }
+  #learnArea a {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    background: #0072bc;
+    padding: 20px 30px;
+    transition: .3s ease; }
+    #learnArea a:hover {
+      background: #014f83; }
+  @media only screen and (max-width: 1345px) {
+    #learnArea h1 {
+      text-shadow: 3px 3px 5px black;
+      font-size: 3vw;
+      width: auto; }
+    #learnArea a {
+      padding: 5px 10px; } }
+
+/******************************************************************/
+footer {
+  width: auto;
+  padding: 50px 20px;
+  background: #3f3f3f;
+  color: white;
+  /************ TABLET MODE **********************/
+  /************ END OF TABLET MODE ****************/ }
+  footer #listWrapper {
+    margin: auto;
+    width: 950px; }
+    footer #listWrapper #listHeader ul li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 5px; }
+      footer #listWrapper #listHeader ul li img {
+        width: 24px; }
+    footer #listWrapper #listHeader ul li:nth-child(1) {
+      width: 75%; }
+    footer #listWrapper #productsList {
+      display: inline-block; }
+      footer #listWrapper #productsList ul li {
+        list-style-type: none;
+        line-height: 1.6; }
+    footer #listWrapper #aboutList {
+      display: inline-block; }
+      footer #listWrapper #aboutList ul li {
+        list-style-type: none;
+        line-height: 1.6; }
+    footer #listWrapper #onTheGoList {
+      display: inline-block; }
+      footer #listWrapper #onTheGoList ul li {
+        list-style-type: none;
+        line-height: 1.6; }
+    footer #listWrapper #legalList {
+      display: inline-block; }
+      footer #listWrapper #legalList ul li {
+        list-style-type: none;
+        line-height: 1.6; }
+    footer #listWrapper #supportList {
+      display: inline-block; }
+      footer #listWrapper #supportList ul li {
+        list-style-type: none;
+        line-height: 1.6; }
+  footer #tablet-footer-list-wrapper {
+    display: none; }
+  @media only screen and (max-width: 980px) {
+    footer #listWrapper {
+      display: none; }
+    footer #tablet-footer-list-wrapper {
+      display: block;
+      color: white;
+      font-family: sans-serif; } }
+
+/*# sourceMappingURL=index.css.map */

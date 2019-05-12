@@ -1,0 +1,513 @@
+/** VARIABLES **/
+$mainBlue: #0072bc;
+$darkBlue: #014f83;
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+/** The Header Section ******************/
+header {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    
+    #tablet-search-nav-area {
+        display: none;
+    } 
+
+    #topNavWrapper {
+        margin: auto;
+        padding: 0 36px;
+                #siteLogo {
+                display: inline-block;
+                img {
+                    width: 110px;
+                    height: 54px;
+                }
+            }
+            #hamburger-logo-area {
+                display: none;
+                padding: 5px 50%;
+                i {
+                    color: $mainBlue;
+                    font-size: 30px;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+            #productNav {
+                display: inline-block;
+                width: 45%;
+                margin: 0 0 0 20px;
+                ul {
+                    li {
+                        i {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            /**** TABLET SEARCH NAV ****/
+            #tablet-search-nav {
+                display: none;
+            }
+            /******************************/
+
+            #searchNav {
+                display: inline-block;
+                margin-left: 100px;
+                position: relative;
+                top: -20px;
+            }
+            ul {
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                list-style-type: none;
+                display: inline-block;
+                padding: 0 20px 0 0;
+                a {
+                text-decoration: none;
+                color: black; 
+                padding-bottom: 21px;
+                transition: all .3s ease;
+                &:hover {
+                    border-bottom: 2px solid $mainBlue;
+                }
+            }   
+        }
+
+        /****** LAPTOP VERSION ****************************/
+        @media only screen and (min-width: 1024px) and (max-width: 1330px) {
+            #productNav {
+                font-size: 15px;
+                width: auto;
+                ul {
+                    li {
+                        i {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            #searchNav {
+                font-size: 15px;
+                li:nth-child(2), li:nth-child(3), li:nth-child(4) {
+                    display: none;
+                }
+            }
+        }
+        /************* END OF LAPTOP VERSION *******************/ 
+
+        /************* TABLET VERSION **************************/
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            #productNav {
+                width: 80%;
+                ul {
+                    li {
+                        i {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            #searchNav {
+                display: none;
+            }
+        }
+        /************** END OF TABLET VERSION *****************/
+        
+        /************* MOBILE VERSION ****************************/
+        @media only screen and (min-width: 320px) and (max-width: 767px) {
+            #siteLogo {
+                width: auto;
+                margin: 0 44%;
+            }
+            #hamburger-logo-area {
+                display: block;
+            }
+            #productNav {
+                display: none;
+                ul {
+                    li {
+                        i {
+                            display: block;
+                        }
+                    }
+                }
+            }
+            #searchNav {
+                display: none;
+            }
+        }
+        @media only screen and (max-width: 425px) {
+            #siteLogo {
+                width: auto;
+                margin: auto;
+            }
+        }
+        /****************** END OF MOBILE VERSION *********************/
+    } 
+}
+/******************** END OF TOP NAVIGATION AREA  **********************************/
+
+    #loginArea {
+        margin: 0;
+        padding: 0;
+        background-color: #F4F4F4;
+        width: auto;
+
+        #signInWrapper {
+            width: 750px;
+            margin: auto;
+            padding: 36px 0;
+
+            #signInIconArea {
+                display: inline-block;
+                i {
+                    font-size: 34px;
+                }
+                h2 {
+                    display: inline-block;
+                    margin: 2px;
+                    font-family: sans-serif;
+                }
+                a {
+                    color: $mainBlue;
+                    text-decoration: none;
+                    font-size: 15px;
+                    &:hover {
+                        color: grey;
+                    }
+                }
+            }
+        }
+        
+        #signUpArea {
+            display: inline-block;
+            form {
+                ul {
+                    margin: 0;
+                    li {
+                        list-style-type: none;
+                        display: inline-block;
+                        label {
+                            font-family: sans-serif;
+                            font-size: 12px;
+                        }
+                        input {
+                            padding: 10px;
+                            margin-right: 5px;
+                        }
+                        input[type="submit"] {
+                            border-radius: 5px;
+                            border: none;
+                            background: $mainBlue;
+                            color: white;
+                            font-family: sans-serif;
+                            font-weight: bold;
+                            transition: .3s ease;
+                            &:hover {
+                                cursor: pointer;
+                                background: $darkBlue;
+                            }
+                        }
+                        a {
+                            color: $mainBlue;
+                            text-decoration: none;
+                            &:hover {
+                                color: grey;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        /*** TABLET VERSION ***********************************************/
+        @media only screen and (min-width: 320px) and (max-width: 767px) {
+            #signInWrapper {
+                margin: auto;
+                width: auto;
+                #signInIconArea {
+                    display: none;
+                }
+                ul {
+                    padding: 0 35%;
+                }
+            }
+        }
+        /*************** MOBILE VERSION *******************************************/
+        @media only screen and (max-width: 425px) {
+            #signInWrapper {
+                ul {
+                    padding: 0;
+                }
+            }
+        }
+    }
+/********************************************************************/
+
+#contentArea {
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+
+    #bannerArea {
+        background-image: url("./images/bannerImage.jpg"); 
+        background-repeat: no-repeat;
+        background-position: 100% 85%;
+        background-size: cover;
+        padding: 5%;
+
+        #creditCardBox {
+            background-color: #ffffff91;
+            width: 30%;
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            img {
+                width: 200px;
+            }
+            h1 {
+                font-family: Arial,Helvetica,sans-serif;
+                font-size: 40px;
+                font-weight: 100;
+                line-height: 52px;
+                margin: 0;
+            }
+            p {
+                margin: 0;
+                line-height: 20px;
+            }
+            form {
+                button {
+                    margin-top: 20px;
+                    padding: 10px;
+                    background: $mainBlue;
+                    color: white;
+                    font-family: sans-serif;
+                    font-weight: bold;
+                    border: none;
+                    border-radius: 5px;
+                    transition: .3s ease;
+                    &:hover {
+                        cursor: pointer;
+                        background: $darkBlue;
+                    }
+                }
+            }
+            /************** TABLET VERSION *********************/
+            @media only screen and (max-width: 1345px) {
+                img {
+                    width: 150px;
+                }
+                h1 {
+                    font-size: 30px;
+                    line-height: 40px;
+                }
+            }
+        }
+        #credit-card-box-mobile {
+            display: none;
+        }
+        /************** MOBILE VERSION *********************/
+        @media only screen and (max-width: 425px) {
+            #creditCardBox {
+                display: none;
+            }
+            #credit-card-box-mobile {
+                width: auto;
+                text-align: center;
+                display: block;
+                img {
+                    width: 250px;
+                    position: relative;
+                    top: 100px;
+                }
+            }
+        }
+    }
+}
+
+/**********************************************************************/ 
+
+#dealsArea {
+    width: auto;
+    font-family: sans-serif;
+    table {
+        margin: auto;
+        tr {
+            td {
+                width: 300px;
+                text-align: center;
+                img {
+                    width: 120px;
+                }
+                h4 {
+                    margin-bottom: 0;
+                }
+                p {
+                    margin-top: 5px;
+                    line-height: 1.5;
+                    a {
+                        color: $mainBlue;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    table:nth-child(2) {
+        display: none;
+    }
+    /********** MOBILE TABLE VERSION ***************************/
+    @media only screen and (max-width: 767px) {
+        table:nth-child(1) {
+            display: none;
+        }
+    }
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
+        table:nth-child(2) {
+            display: block;
+            margin-top: 25%;
+        }
+    }
+}
+/*******************************************************************/ 
+
+#learnArea {
+    width: auto;
+    margin: 2% 15%;
+    background-image: url("images/learnBannerImage.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 23%;
+    background-size: cover;
+    padding: 5%;
+    h1 {
+        color: white;
+        width: 500px;
+        font-size: 50px;
+        font-family: sans-serif;
+    }
+    a {
+        color: white;
+        font-family: sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 8px;
+        background: $mainBlue;
+        padding: 20px 30px;
+        transition: .3s ease;
+        &:hover {
+            background: $darkBlue;
+        }
+    }
+    @media only screen and (max-width: 1345px) {
+        h1 {
+            text-shadow: 3px 3px 5px black;
+            font-size: 3vw;
+            width: auto;
+        }
+        a {
+            padding: 5px 10px;
+        }
+    }
+}
+/******************************************************************/ 
+
+footer {
+    width: auto;
+    padding: 50px 20px;
+    background: #3f3f3f;
+    color: white;
+
+    #listWrapper {
+        margin: auto;
+        width: 950px;
+        #listHeader {
+            ul {
+                li {
+                    list-style-type: none;
+                    display: inline-block;
+                    padding: 5px;
+                    img {
+                        width: 24px;
+                    }
+                }
+                li:nth-child(1) {
+                    width: 75%;
+                }
+            }
+        }
+
+        #productsList {
+            display: inline-block;
+            ul {
+                li {
+                    list-style-type: none;
+                    line-height: 1.6;
+                }
+            }
+        }
+
+        #aboutList {
+            display: inline-block;
+            ul {
+                li {
+                    list-style-type: none;
+                    line-height: 1.6;
+                }
+            }
+        }
+
+        #onTheGoList {
+            display: inline-block;
+            ul {
+                li {
+                    list-style-type: none;
+                    line-height: 1.6;
+                }
+            }
+        }
+
+        #legalList {
+            display: inline-block;
+            ul {
+                li {
+                    list-style-type: none;
+                    line-height: 1.6;
+                }
+            }
+        }
+
+        #supportList {
+            display: inline-block;
+            ul {
+                li {
+                    list-style-type: none;
+                    line-height: 1.6;
+                }
+            }
+        }
+    }
+    #tablet-footer-list-wrapper {
+        display: none;
+    }
+    /************ TABLET MODE **********************/
+    @media only screen and (max-width: 980px) {
+        #listWrapper {
+            display: none;
+        }
+        #tablet-footer-list-wrapper {
+            display: block;
+            color: white;
+            font-family: sans-serif;
+        }
+    }
+    /************ END OF TABLET MODE ****************/
+}

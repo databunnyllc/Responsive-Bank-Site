@@ -162,7 +162,9 @@ header {
         padding: 0 35%; } }
   @media only screen and (max-width: 425px) {
     #loginArea #signInWrapper ul {
-      padding: 0; } }
+      padding: 0; }
+    #loginArea #signUpArea {
+      padding: 0 5%; } }
 
 /********************************************************************/
 #contentArea {

@@ -52,7 +52,7 @@
                     <a href="#">or Set Up Online Access</a>
                 </div>
                 <div id="signUpArea">
-                    <form action="signIn.php" method="POST">
+                    <form action="welcome.php" method="POST">
                         <ul>
                             <li>
                                 <label>Username</label><br/>

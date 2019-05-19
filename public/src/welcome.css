@@ -1,0 +1,93 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0; }
+
+header {
+  width: 80%;
+  margin: auto; }
+  header .title-area a img {
+    width: 130px; }
+  header .account-settings-area p {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #014f83; }
+    header .account-settings-area p:hover {
+      color: black;
+      cursor: pointer; }
+    header .account-settings-area p i {
+      padding: 0 0 0 10px; }
+  header .dropdown-menu-area {
+    position: absolute;
+    background: white;
+    padding: 5px;
+    width: 250px; }
+    header .dropdown-menu-area ul {
+      padding: 0;
+      font-family: sans-serif;
+      font-size: 15px; }
+      header .dropdown-menu-area ul li {
+        text-transform: uppercase;
+        list-style-type: none;
+        padding: 10px 0 0 0;
+        border: #014f83; }
+
+.greetings-area {
+  background: #c4c4c4;
+  padding: 90px;
+  background-image: url("./images/welcomeBanner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 88%;
+  box-shadow: 4px 7px 15px black inset; }
+  .greetings-area h1 {
+    width: 700px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Lobster", cursive, sans-serif;
+    text-shadow: 1px 1px 15px black; }
+
+.bank-accounts-area {
+  width: 80%;
+  margin: auto;
+  padding: 10px; }
+  .bank-accounts-area .bank-accounts {
+    outline: 5px solid #cccccc;
+    background: #0072bc;
+    background-image: url("./images/accountsBG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black; }
+    .bank-accounts-area .bank-accounts p {
+      margin: 0;
+      text-shadow: 1px 1px 10px black; }
+    .bank-accounts-area .bank-accounts p:nth-child(2) {
+      font-size: 40px; }
+
+/** Flexbox Area */
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  header .title-area {
+    flex-grow: 1; }
+  header .account-settings-area {
+    flex-grow: 0; }
+
+.bank-accounts-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+/*# sourceMappingURL=welcome.css.map */

@@ -1,0 +1,24 @@
+{
+  "name": "banksiteproject",
+  "version": "1.0.0",
+  "description": "\"A bank site that demonstrates my responsive design skills\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeTheTweak/Responsive-Bank-Site.git"
+  },
+  "author": "Christopher Leveston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeeTheTweak/Responsive-Bank-Site/issues"
+  },
+  "homepage": "https://leethetweak.github.io/Responsive-Bank-Site/public/index.html",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  }
+}

@@ -14,7 +14,7 @@
 <!-- The Top Navigation Area -->
 <div id="topNavWrapper">
 <div id="siteLogo">
-    <img src="src/images/Logo.png"/>
+    <img src="public/src/images/Logo.png"/>
 </div>
 <div id="hamburger-logo-area">
     <i class="fas fa-bars"></i>
@@ -43,7 +43,6 @@
 </header>
 <!--------------------------------------------------------------------------------------->
 
-<<<<<<< HEAD:public/index.php
         <!-- The Sign in Area -->
         <section id="loginArea">
             <div id="signInWrapper">
@@ -74,7 +73,7 @@
         <section id="contentArea">
             <div id="bannerArea">
                 <div id="creditCardBox">
-                    <img src="src/images/creditCard.png"/>
+                    <img src="public/src/images/creditCard.png"/>
                     <h1>Use your miles.<br/>The way you want to use them.</h1>
                     <p>With Direct Rewards, earn unlimited 3x miles.<br/>No blackouts!</p>
                     <form action="#">
@@ -83,7 +82,7 @@
                 </div>
                 <!-- CREDIT CARD BOX MOBILE VERSION -->
                 <div id="credit-card-box-mobile">
-                    <img src="./src/images/creditCard.png"/>
+                    <img src="public/src/images/creditCard.png"/>
                 </div>
             </div>
         </section>
@@ -92,7 +91,7 @@
             <table cellspacing="30">
                 <tr>
                     <td>
-                        <img src="./src/images/BitcoinLogo.png"/>
+                        <img src="public/src/images/BitcoinLogo.png"/>
                         <h4>We are</br>Cryptocurrency Friendly</h4>
                         <p>Create a secure, bank independent, crypto wallet with us and start
                             receiving your assets in cryptocurrency. Pay your bills, mortgage, pretty 
@@ -100,76 +99,16 @@
                             <a href="#">Learn more.</a>
                         </p>
                     </td>
-=======
-
-<!-- The Sign in Area -->
-<section id="loginArea">
-<div id="signInWrapper">
-<div id="signInIconArea">
-    <i class="fas fa-user-circle"></i>
-    <h2>Sign In</h2><br/>
-    <a href="#">or Set Up Online Access</a>
-</div>
-<div id="signUpArea">
-<form action="signIn.php" method="POST">
-    <ul>
-    <li>
-    <label>Username</label><br/>
-    <input type="text" name="username" placeholder="Username" required><br/>
-    <input type="checkbox" name="rememberMe">Remember Me
-    </li>
-
-    <li>
-    <label>Password</label><br/>
-    <input type="password" name="password" placeholder="Password" required/><input type="submit" name="submit" value="Sign In"/><br/>
-    <a href="#">Forgot Username or Password?</a>
-    </li>
-    </ul>
-</form>
-</div>
-</div>
-</section>
-<!-- The Banner Area -->
-<section id="contentArea">
-<div id="bannerArea">
-<div id="creditCardBox">
-    <img src="src/images/creditCard.png"/>
-    <h1>Use your miles.<br/>The way you want to use them.</h1>
-    <p>With Direct Rewards, earn unlimited 3x miles.<br/>No blackouts!</p>
-<form action="#">
-    <button type="submit">Learn More</button> 
-</form>
-</div>
-<!-- CREDIT CARD BOX MOBILE VERSION -->
-<div id="credit-card-box-mobile">
-    <img src="./src/images/creditCard.png"/>
-</div>
-</div>
-</section>
-<!-- The Deals Area -->
-<section id="dealsArea">
-<table cellspacing="30">
-<tr>
-<td>
-    <img src="./src/images/BitcoinLogo.png"/>
-    <h4>We are</br>Cryptocurrency Friendly</h4>
-    <p>Create a secure, bank independent, crypto wallet with us and start
-        receiving your assets in cryptocurrency. Pay your bills, mortgage, pretty 
-        much anything using Bitcoin or Litecoin.
-    <a href="#">Learn more.</a>
-    </p>
-</td>
->>>>>>> 9fe47528331279155fdcca8cc7be717bed006007:public/index.html
                     
 <td>
-    <img src="./src/images/DinningRewardsLogo.png"/>
+    <img src="public/src/images/DinningRewardsLogo.png"/>
     <h4>Dinning Cash Back Rewards</h4>
     <p>Earn unlimited cash back on dining and entertainment.
     <a href="#">Apply Now.</a>
     </p>
 </td>
 <td>
-    <img src="./src/images/creditCardLogo.png"/>
+    <img src="public/src/images/creditCardLogo.png"/>
     <h4>See If you're Pre-Qualified</h4>
     <p>You may be eligible for pre-qualified credit card offers.
         Don't worry, this won't impact your credit score.
@@ -177,7 +116,7 @@
     </p>
 </td>
 <td>
-    <img src="./src/images/creditScoreIcon.png"/>
+    <img src="public/src/images/creditScoreIcon.png"/>
     <h4>View Your Credit Score</h4>
     <p>Use Credit Secure to view your credit score. Check for any suspicious activity
         and shut your card off incase of emergencies.
@@ -191,7 +130,7 @@
 <table>
 <tr>
 <td>
-    <img src="./src/images/BitcoinLogo.png"/>
+    <img src="public/src/images/BitcoinLogo.png"/>
     <h4>We are</br>Cryptocurrency Friendly</h4>
     <p>Create a secure, bank independent, crypto wallet with us and start
         receiving your assets in cryptocurrency. Pay your bills, mortgage, pretty 
@@ -200,7 +139,7 @@
     </p>
 </td>
 <td>
-    <img src="./src/images/DinningRewardsLogo.png"/>
+    <img src="public/src/images/DinningRewardsLogo.png"/>
     <h4>Dinning Cash Back Rewards</h4>
     <p>Earn unlimited cash back on dining and entertainment.
     <a href="#">Apply Now.</a>
@@ -209,7 +148,7 @@
 </tr>
 <tr>
 <td>
-    <img src="./src/images/creditCardLogo.png"/>
+    <img src="public/src/images/creditCardLogo.png"/>
     <h4>See If you're Pre-Qualified</h4>
     <p>You may be eligible for pre-qualified credit card offers.
         Don't worry, this won't impact your credit score.
@@ -217,7 +156,7 @@
     </p>
 </td>
 <td>
-    <img src="./src/images/creditScoreIcon.png"/>
+    <img src="public/src/images/creditScoreIcon.png"/>
     <h4>View Your Credit Score</h4>
     <p>Use Credit Secure to view your credit score. Check for any suspicious activity
         and shut your card off incase of emergencies.
@@ -237,13 +176,13 @@
 <div id="listWrapper">
 <div id="listHeader">
 <ul>
-    <li><img src="./src/images/swishLogo.png"/></li>
+    <li><img src="public/src/images/swishLogo.png"/></li>
 
-    <li><img src="./src/images/instagramLogo.png"/></li>
-    <li><img src="./src/images/twitterLogo.png"/></li>
-    <li><img src="./src/images/facebookLogo.png"/></li>
-    <li><img src="./src/images/linkedinLogo.png"/></li>
-    <li><img src="./src/images/youtubeLogo.png"/></li>
+    <li><img src="public/src/images/instagramLogo.png"/></li>
+    <li><img src="public/src/images/twitterLogo.png"/></li>
+    <li><img src="public/src/images/facebookLogo.png"/></li>
+    <li><img src="public/src/images/linkedinLogo.png"/></li>
+    <li><img src="public/src/images/youtubeLogo.png"/></li>
 </ul>
 </div>
 <div id="productsList">
@@ -312,6 +251,6 @@
 </div>
 </footer>
 
-<script src="./src/scripts/hamburgerDrop.js"></script>
+<script src="public/src/scripts/hamburgerDrop.js"></script>
 </body>
 </html>

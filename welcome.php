@@ -12,7 +12,7 @@
 <html lang="en">
 <head>
 <title>Welcome,<?php echo " " . $display_username;?></title>
-<link href="./src/welcome.css" type="text/css" rel="stylesheet"/>
+<link href="public/src/welcome.css" type="text/css" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
@@ -20,7 +20,7 @@
 
 <header>
     <div class="navigation title-area">
-        <a href="index.php"><img src="./src/images/Logo.png"/></a>
+        <a href="index.php"><img src="public/src/images/Logo.png"/></a>
     </div>
     <div class="navigation account-settings-area">
         <p><?php echo $display_username;?><i class="fas fa-angle-down"></i></p>

@@ -45,6 +45,9 @@ header {
                 margin: 0 0 0 20px;
                 ul {
                     li {
+                        &:nth-child(1) {
+                            display: none;
+                        }
                         i {
                             display: none;
                         }
@@ -89,6 +92,9 @@ header {
                 width: auto;
                 ul {
                     li {
+                        &:nth-child(1) {
+                            display: none;
+                        }
                         i {
                             display: none;
                         }
@@ -135,6 +141,9 @@ header {
                 display: none;
                 ul {
                     li {
+                        &:nth-child(1) {
+                            display: block;
+                        }
                         i {
                             display: block;
                         }

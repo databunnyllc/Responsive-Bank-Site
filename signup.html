@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Sign Up for DirectCapital Banking</title>
+<link href="public/src/signup.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <video autoplay muted loop id="signup-video">
+        <source src="public/src/images/rainBGVid.mp4"/>
+    </video>
+    <div class="signup-form-area">
+        <form action="new_user_welcome.php" method="POST">
+            <div id="form-logo">
+                <img src="public/src/images/Logo.png"/>
+            </div>
+            <div id="form-title">
+                <h2>Sign Up for Online Access</h2>
+            </div>
+            <div id="input-area">
+                <label>Username:</label>
+                <input type="text" name="new_user_name" placeholder="Enter username..." required/>
+                <label>Create Password:</label>
+                <input type="password" name="new_user_password" placeholder="Create password..." required/>
+                <label>Email:</label>
+                <input type="email" name="new_user_email" placeholder="Enter email..." required/>
+            </div>
+            <div id="buttons-area">
+                <input type="submit" value="Signup!"/>
+                <a href="index.php">Back</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

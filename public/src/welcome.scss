@@ -48,6 +48,12 @@ header {
             }
         }
     }
+    .hide-dropdown {
+        display: none;
+    }
+    .show-dropdown {   
+        display: block;
+    }
 }
 
 .greetings-area {

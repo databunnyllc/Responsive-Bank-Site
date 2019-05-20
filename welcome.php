@@ -12,9 +12,9 @@
 <html lang="en">
 <head>
 <title>Welcome,<?php echo " " . $display_username;?></title>
-<link href="public/src/welcome.css" type="text/css" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+<link href="public/src/welcome.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
 
@@ -24,13 +24,13 @@
     </div>
     <div class="navigation account-settings-area">
         <p><?php echo $display_username;?><i class="fas fa-angle-down"></i></p>
-        <div class="dropdown-menu-area">
+        <div class="dropdown-menu-area hide-dropdown">
             <ul>
-                <li>Profile</li>
-                <li>Security</li>
-                <li>Settings</li>
-                <li>Alerts</li>
-                <li>Sign Out</li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Alerts</a></li>
+                <li><a href="index.php">Sign Out</a></li>
             </ul>
         </div>
     </div>
@@ -50,9 +50,16 @@
         <p>Savings</p>
         <p>$23,000</p>
     </div>
-    <div class="bank-accounts account-3">Business Checking</div>
-    <div class="bank-accounts account-4">Business Savings</div>
+    <div class="bank-accounts account-3">
+        <p>Business Checking</p>
+        <p>$500,000</p>
+    </div>
+    <div class="bank-accounts account-4">
+        <p>Business Savings</p>
+        <p>$1,000,000</p>
+    </div>
 </section>
 
+<script src="public/src/scripts/welcome.js"></script>
 </body>
 </html>

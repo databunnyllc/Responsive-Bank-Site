@@ -31,6 +31,10 @@ header {
         list-style-type: none;
         padding: 10px 0 0 0;
         border: #014f83; }
+  header .hide-dropdown {
+    display: none; }
+  header .show-dropdown {
+    display: block; }
 
 .greetings-area {
   background: #c4c4c4;

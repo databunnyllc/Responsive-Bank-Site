@@ -49,7 +49,7 @@
                 <div id="signInIconArea">
                     <i class="fas fa-user-circle"></i>
                     <h2>Sign In</h2><br/>
-                    <a href="#">or Set Up Online Access</a>
+                    <a href="signup.html">or Set Up Online Access</a>
                 </div>
                 <div id="signUpArea">
                     <form action="welcome.php" method="POST">

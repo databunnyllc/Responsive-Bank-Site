@@ -14,7 +14,7 @@
 
 <header>
     <div class="navigation title-area">
-        <a href="index.php"><img src="public/src/images/Logo.png"/></a>
+        <img src="public/src/images/Logo.png"/>
     </div>
     <div class="navigation account-settings-area">
         <p><?php echo $display_username;?><i class="fas fa-angle-down"></i></p>

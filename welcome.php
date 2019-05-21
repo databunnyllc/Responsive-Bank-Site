@@ -1,11 +1,5 @@
 <?php 
     $display_username = $_POST["username"];
-
-    $weather_url = 'https://api.openweathermap.org/data/2.5/weather?q=Chicago,US&APPID=0d93240f9f061bd77087e4d66457cefe';
-    $weather_json = file_get_contents($weather_url);
-    $weather_array = json_decode($weather_json,true);
-
-    $condition = $weather_array["weather"][0]["description"];
 ?>
 
 <!DOCTYPE html>
@@ -37,8 +31,7 @@
 </header>
 
 <section class="greetings-area">
-    <h1>Hello,<?php echo " " . $display_username;?><br/>
-    <?php echo $condition;?></h1>
+    <h1>Hello,<?php echo " " . $display_username;?><br/><span><!--WEATHER DATA--></span></h1>
 </section>
 
 <section class="bank-accounts-area">
@@ -61,5 +54,6 @@
 </section>
 
 <script src="public/src/scripts/welcome.js"></script>
+<script src="public/src/scripts/weatherAjax.js"></script>
 </body>
 </html>

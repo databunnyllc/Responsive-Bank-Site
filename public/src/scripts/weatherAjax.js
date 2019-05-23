@@ -11,5 +11,5 @@ weatherRequest.onreadystatechange = function() {
     } 
 }
 
-weatherRequest.open("GET", "http://api.openweathermap.org/data/2.5/weather?q=Chicago,us&APPID=0d93240f9f061bd77087e4d66457cefe");
+weatherRequest.open("GET", "https://api.openweathermap.org/data/2.5/weather?q=Chicago,us&APPID=0d93240f9f061bd77087e4d66457cefe");
 weatherRequest.send();

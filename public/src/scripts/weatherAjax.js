@@ -8,9 +8,7 @@ weatherRequest.onreadystatechange = function() {
         let currentWeather = weatherData.weather[0].description;
 
     document.querySelector(".greetings-area h1 span").innerHTML = currentWeather;
-    } else {
-        document.querySelector(".greetings-area h1 span").innerHTML = " ";
-    }
+    } 
 }
 
 weatherRequest.open("GET", "http://api.openweathermap.org/data/2.5/weather?q=Chicago,us&APPID=0d93240f9f061bd77087e4d66457cefe");

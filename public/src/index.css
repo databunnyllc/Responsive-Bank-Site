@@ -40,6 +40,8 @@ header {
       display: inline-block;
       width: 45%;
       margin: 0 0 0 20px; }
+      header #topNavWrapper #productNav ul li:nth-child(1) {
+        display: none; }
       header #topNavWrapper #productNav ul li i {
         display: none; }
     header #topNavWrapper #tablet-search-nav {
@@ -67,6 +69,8 @@ header {
       header #topNavWrapper #productNav {
         font-size: 15px;
         width: auto; }
+        header #topNavWrapper #productNav ul li:nth-child(1) {
+          display: none; }
         header #topNavWrapper #productNav ul li i {
           display: none; }
       header #topNavWrapper #searchNav {
@@ -88,6 +92,8 @@ header {
         display: block; }
       header #topNavWrapper #productNav {
         display: none; }
+        header #topNavWrapper #productNav ul li:nth-child(1) {
+          display: block; }
         header #topNavWrapper #productNav ul li i {
           display: block; }
       header #topNavWrapper #searchNav {
@@ -345,3 +351,5 @@ footer {
       display: block;
       color: white;
       font-family: sans-serif; } }
+
+/*# sourceMappingURL=index.css.map */

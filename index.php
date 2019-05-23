@@ -22,6 +22,7 @@
 
 <div id="productNav">
     <ul>
+    <li><a href="signup.html">Sign Up</a></li>
     <li><a href="#">Credit Cards</a></li>
     <li><a href="#">Checking & Savings</a></li>
     <li><a href="#">Loans</a></li>
@@ -36,7 +37,7 @@
     <li><i class="fas fa-search"></i><input type="search" name="search" placeholder="Search"></li>
     <li><a href="#"><i class="far fa-question-circle"></i>Support</a></li>
     <li><a href="#">Location</a></li>
-    <li><a href="#">Sign In</a></li>
+    <li><a href="signup.html">Sign Up</a></li>
     </ul>
 </div>
 </div>
@@ -49,7 +50,7 @@
                 <div id="signInIconArea">
                     <i class="fas fa-user-circle"></i>
                     <h2>Sign In</h2><br/>
-                    <a href="#">or Set Up Online Access</a>
+                    <a href="signup.html">or Set Up Online Access</a>
                 </div>
                 <div id="signUpArea">
                     <form action="welcome.php" method="POST">
@@ -231,7 +232,7 @@
 </div>
 <div id="tablet-footer-list-wrapper">
     <div id="signUpDiv">
-        <h2>Sign Up</h2>
+        <h2><a href="signup.html">Sign Up</a></h2>
     </div>
     <div id="products-div">
         <h2>Products</h2>
